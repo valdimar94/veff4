@@ -411,7 +411,7 @@ window.SoundManager = (function() {
 	};
 
 	SoundManager.prototype.gameSound = function() {
-		this.gameSoundtrack.src = '../sounds/spongebobu.mp3';
+		this.gameSoundtrack.src = './sounds/spongebobu.mp3';
 		this.wrongNeighborhood.pause();
 		if (this.gameSoundtrack.readyState !== 4) {
     	this.gameSoundtrack.load();
@@ -420,7 +420,7 @@ window.SoundManager = (function() {
 	};
 
 	SoundManager.prototype.flapSound = function() {
-		this.flapSoundEffect.src = '../sounds/fart.wav';
+		this.flapSoundEffect.src = './sounds/fart.wav';
 		if (this.flapSoundEffect.readyState !== 4) {
     	this.flapSoundEffect.load();
 		}
@@ -434,7 +434,7 @@ window.SoundManager = (function() {
     	this.toastyWhoopsie.load();
 		}
 		this.toastyWhoopsie.play();
-		this.wrongNeighborhood.src = '../sounds/wrong.mp3';
+		this.wrongNeighborhood.src = './sounds/wrong.mp3';
 		if (this.wrongNeighborhood.readyState !== 4) {
     	this.wrongNeighborhood.load();
 		}
