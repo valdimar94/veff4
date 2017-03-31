@@ -130,10 +130,10 @@ window.Game = (function() {
 		var header = $('.Player');
 
 		var backgrounds = new Array(
-    	'url(../images/db1.png)',
-			'url(../images/db2.png)',
-			'url(../images/db3.png)',
-			'url(../images/db4.png)'
+    	'url(./images/db1.png)',
+			'url(./images/db2.png)',
+			'url(./images/db3.png)',
+			'url(./images/db4.png)'
 		);
 
 		var current = 0;
